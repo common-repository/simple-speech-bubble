@@ -1,0 +1,60 @@
+{
+    "name": "simple-speech-bubble/speech-bubble",
+    "title": "Speech Bubble",
+    "icon": "format-chat",
+    "description": "speech-bubble",
+    "textdomain": "simple-speech-bubble",
+    "category": "common",
+    "editorScript": "file:../../build/index.js",
+    "script": "file:../../build/script.js",
+    "editorStyle": "file:../../build/index.css",
+    "style": "file:../../build/index.css",
+    "attributes": {
+        "mediaId": {
+            "type": "integer",
+            "default": 0
+        },
+        "mediaCaption": {
+            "type": "string",
+            "default": "",
+            "selector": "figure figcaption"
+        },
+        "mediaURL": {
+            "type": "string",
+            "default": "",
+            "selector": "figure img",
+            "attribute": "src"
+        },
+        "mediaSizeSlug": {
+            "type": "string",
+            "default": "full"
+        },
+        "mediaPosition": {
+            "type": "string",
+            "default": "left"
+        },
+        "backgroundColor": {
+            "type": "string"
+        },
+        "customBackgroundColor": {
+            "type": "string"
+        },
+        "borderColor": {
+            "type": "string"
+        },
+        "customBorderColor": {
+            "type": "string"
+        },
+        "textColor": {
+            "type": "string"
+        },
+        "customTextColor": {
+            "type": "string"
+        }
+    },
+    "supports": {
+        "color": {
+            "link": true
+        }
+    }
+}
